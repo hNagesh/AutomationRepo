@@ -305,5 +305,5 @@ And('User verifies fields on the Exam Details page', function () {
     
 })
 Given('User is on the Your Exam Details page', function () {
-   
+    // cy.xpath(this.locator.WellAP.examregPrometric).should('contain','submitted')
 })
