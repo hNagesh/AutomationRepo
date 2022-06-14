@@ -304,3 +304,6 @@ And('User verifies fields on the Exam Details page', function () {
     cy.contains("Download").scrollIntoView().should('be.visible')
     
 })
+Given('User is on the Your Exam Details page', function () {
+   
+})
